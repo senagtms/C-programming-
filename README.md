@@ -1,3 +1,3 @@
-# C-programming-
+# C-programming
 My projects with C programming
-https://github.com/senagtms/C-programming-/blob/master/Guess%20a%20random%20number
+# https://github.com/senagtms/C-programming-/blob/master/Print%20Triangle%20Pattern
