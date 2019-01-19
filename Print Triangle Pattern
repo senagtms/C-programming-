@@ -1,0 +1,27 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+  void Triangle(void)
+  {  int i,j,print,rows;
+  
+  printf("Enter the number of rows : ");
+    scanf("%d",&rows);
+  
+  for (i=0; i<rows; i++){
+		for (j=rows; j>i; j--){
+			printf(" ");
+		}
+			
+		for(print=1; print<=i+1; print++) {
+			printf(" *");
+		}
+		printf("\n");
+	}
+
+		
+		}
+	int main(void) {
+  	Triangle();
+	return 0;
+}
