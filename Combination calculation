@@ -1,0 +1,27 @@
+
+   int Factorial(int k);
+   int Combination(int n,int r);
+   int main(void){
+   	int k,s,result;
+   	printf("Enter the number--> "); scanf("%d",&k);
+   	printf("Enter the number--> "); scanf("%d",&s);
+   	result=Combination(k,s);
+   	printf("Combination--> %d",result);
+   	return(0);
+   }
+   
+   int Factorial(int k){
+   	int i,s=1;
+   	
+   	for(i=1;i<=k;i++){
+   		s*=i;
+	   }
+	   return(s);
+   }
+   int Combination(int n,int r){
+   	  int s;
+    s=Factorial(n)/(Factorial(r)*Factorial(n-r));
+    return(s);
+   }   
+   
+   
